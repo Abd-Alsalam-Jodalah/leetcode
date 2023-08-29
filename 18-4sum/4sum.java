@@ -5,7 +5,7 @@ class Solution {
 
         Set<List<Integer>> set = new HashSet<>();
 
-        int first;
+       
         for(int j=0; j<nums.length-3; j++)
         {
             int left;
@@ -30,9 +30,8 @@ class Solution {
 
             }          
         }
-
-        return new ArrayList<>(set);
         
+        return new ArrayList<>(set);
     }
     
 }
